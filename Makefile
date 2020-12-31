@@ -275,7 +275,7 @@ LDFLAGS += $(PRINTF_LIB) $(SCANF_LIB) $(MATH_LIB)
 # to get a full listing.
 #
 #AVRDUDE_PROGRAMMER = pony-stk200
-AVRDUDE_PROGRAMMER = usbasp
+AVRDUDE_PROGRAMMER = usbtiny
 
 # com1 = serial port. Use lpt1 to connect to parallel port.
 #AVRDUDE_PORT = lpt1
